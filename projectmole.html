@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whack-a-Mole Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="projectmole.css">
+</head>
+<body>
+    <div class="container text-center">
+        <h1 class="mt-5">Whack-a-Mole Game</h1>
+         <!-- <h1 style="margin-top: 20px;">Mole</h1> -->
+        <div text id="game-board" class="row mt-4"></div>
+        <div class="mt-4">
+            <h2 style="color: aliceblue;" >Score: <span id="score">0</span></h2>
+            <h2 style="color: aliceblue;">Time Left: <span id="time">30</span> seconds</h2>
+        </div>
+        <button id="start-button" class="btn btn-primary mt-3">Start Game</button>
+    </div>
+
+    <audio id="mole-sound" src="./assests/audios/a-video-game-248444.mp3" preload="auto"></audio>
+    <audio id="whack-sound" src="./assests/audios/jumping-in-a-video-game.wav" preload="auto"></audio>
+
+    <script src="projectmole.js"></script>
+</body>
+</html>

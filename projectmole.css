@@ -1,0 +1,38 @@
+body {
+    /* background-color:floralwhite; */
+    background-image: url(./Assests/images/whackb1.jpg);
+    background-size: cover;
+}
+
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.hole {
+    width: 120px;
+    height: 120px;
+    background-color:rgb(253, 159, 17);
+    border-radius: 75px;
+    position: relative;
+    overflow: hidden;
+}
+
+.mole {
+    width: 80px;
+    height: 80px;
+    /* background-color: rgb(28, 155, 230); */
+    background-image: url(./assests/images/tiger.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    top:17%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+}
